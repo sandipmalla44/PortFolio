@@ -1,0 +1,22 @@
+/* #navItems {
+    float: right;
+    text-align: right;
+} */
+
+.navbar-items {
+    text-align: center;
+    margin-right: 10em;
+    padding: 0.5em;
+}
+
+.nav-item {
+    color: black;
+    font-size: medium;
+    font-weight: 200;
+    align-content: center;
+    margin-right: 1.5em;
+}
+
+.nav-item ul li a {
+    color: black;
+}
