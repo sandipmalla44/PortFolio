@@ -5,19 +5,31 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/site.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style>
+            
+        </style>
     </head>
     <body>
+        <!-- <img src="images/Head.png" width="1368px" height="600px"> -->
         <header>
-            <nav class="navbar navbar-expand-sm navbar-light fixed-top bg-light">
-                <div class="container">
+            <nav class="navbar navbar-expand-md navbar-light fixed-top">
+                <div class="container-fluid">
                     <a class="navbar-brand" href="#">
-                        <img src="images/SandyMYT.png" width="50" height="60">
+                        <span><img src="images/SandyMYT.png" style="width: 45px; height:50px; margin-left: 5em; margin-right: 1em;"  class="d-inline-block align-left"></span>
+                        SandyM
                     </a> 
-                    <div class="navbar-items" id="navItems">
-                        <ul class="nav navbar-nav mr-auto">
-                            <li class="nav-item active">
-                                <a class="nav-link" href="#">Home</a>
+                    <button class="navbar-toggler" id="dropDownButton" type="button" data-toggle="collapse" data-target="#navbarCollapse" 
+                     aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                     <span class="navbar-toggler-icon"></span>
+                     </button>
+                    <div class="collapse navbar-collapse w-100 justify-content-center" id="navbarCollapse">
+                        <ul class="nav navbar-nav ml-auto mr-5">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">Services</a>
@@ -33,6 +45,125 @@
                 </div>
             </nav>
         </header>
-        <main></main>
+
+        <main class="container main-container" role="main">
+            <div class="container body-content">
+                <div class="row">
+                    <div class="col-sm-7 col-md-7 myPhoto">
+                        <div class="imgBlock">
+                            <img src="images/dp.png" id="mainImg" style="width: 300px; height: 300px;">
+                        </div>
+                    </div>
+                    <div class="col-sm-5 col-md-5 myText">
+                        <h2 class="text-center">- I am a Web Developer</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <h1 class="text-center">About Me</h1>
+                <div class="row">
+                    <div class="col col-md-3">
+                        <div class="midContentBlocks">
+                            <div class="midContentBody ">
+                                <i class="fa fa-address-book"></i>
+                            </div>
+                            <div class="midContentFooter">
+                                <a href="#">C# Backend</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="midContentBlocks">
+                            <div class="midContentBody ">
+                                <i class="fa fa-map"></i>
+                            </div>
+                            <div class="midContentFooter">
+                                <a href="#">Maps</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="midContentBlocks">
+                            <div class="midContentBody ">
+                                <i class="fa fa-list-alt"></i>
+                            </div>
+                            <div class="midContentFooter">
+                                <a href="#">Websites</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="midContentBlocks">
+                            <div class="midContentBody ">
+                                <i class="fa fa-at"></i>
+                            </div>
+                            <div class="midContentFooter">
+                                <a href="#">Mailing</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container blog-Container">
+                <h1 class="text-center mt-5 mb-5">My Blogs</h1>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="blog-block">
+                            <div class="blog-header">
+                                <h5>Space X Crew Mission</h5>
+                            </div>
+                            <div class="blog-body">
+                                <img src="images/4.jpg" class="blog-image">
+                            </div>
+                            <div class="blog-footer">
+                                <p>It is a spaceflight program for taking humans to space using commercially developed spacecraft. </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="blog-block">
+                            <div class="blog-header">
+                                <h5>Starlink</h5>
+                            </div>
+                            <div class="blog-body">
+                                <img src="images/Starlink1.jpg" class="blog-image">
+                            </div>
+                            <div class="blog-footer">
+                                <p>Starlink is a Project of Elon Musk and his company SpaceX for delivering high speed internet at every place on earth. </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="blog-block">
+                            <div class="blog-header">
+                                <h5>ATTOL Project</h5>
+                            </div>
+                            <div class="blog-body">
+                                <img src="images/a350.jpg" class="blog-image">
+                            </div>
+                            <div class="blog-footer">
+                                <p>Back in January Airbus completed first Autonomous Taxi, Take-Off and Landing (ATTOL) Project. The project included Auto Taxi, takeoff and landing feature by the airplane itself. </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="blog-block">
+                            <div class="blog-header">
+                                <h5>Huawei's new OS </h5>
+                            </div>
+                            <div class="blog-body">
+                                <img src="images/huawei-harmony.jpg" class="blog-image">
+                            </div>
+                            <div class="blog-footer">
+                                <p>Huawei’s new OS just launched a few days ago named as Harmony OS 2.0.  It was unveiled on 9 August 2019 as an open source micro-kernel based distributed operating system. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+        <script src="js/bootstrap.js"></script>
+        <script src="js/dropDownMove.js"></script>
     </body>
 </html>
