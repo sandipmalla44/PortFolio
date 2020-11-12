@@ -14,3 +14,19 @@
 //     e.preventDefault();
     
 // });
+// $(document).ready(function () {  
+//     $('.level-circle').hover(function() {
+//         console.log("hovered");
+//         var newElement = $('<div id="addedText" class="aText">School</div>')
+//         $(this).prepend(newElement);
+//         newElement.focus();
+//     }, function () {  
+//         $(this).children('#addedText').remove();
+//     });
+// });
+
+$(document).ready(function () {  
+    $('.level-circle').hover(function() {
+        
+    });
+});
