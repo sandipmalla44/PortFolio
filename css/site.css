@@ -341,6 +341,7 @@ nav .navbar-nav li a:hover {
 .edu {
     padding-top: 70px;
     padding-bottom: 40px;
+    font-size: xx-large;
     text-align: center;
 }
 
@@ -354,12 +355,16 @@ nav .navbar-nav li a:hover {
 }
 
 .educard {
+    position: relative;
+    overflow: hidden;
     padding: 5px;
     background-color: rgba(196, 247, 207, 1); 
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3);
     border-radius: 10px;
     border-width: 2px;
     margin-top: 10px;
+    margin-left: 100px;
+    margin-right: -100px;
     margin-bottom: 10px;
 }
 
@@ -436,4 +441,43 @@ nav .navbar-nav li a:hover {
     -webkit-transition: all 2s ease-in-out; 
     -moz-transition: all 2s ease-in-out; 
     -o-transition: all 2s ease-in-out; */
+}
+
+
+.experience {
+    border-width: 5px;
+    border-color: tomato;
+}
+
+nav {
+    box-shadow: none;
+}
+
+
+.scrolled-down{
+    /* background-color: rgba(196, 247, 207, 1);  */
+    /* -webkit-transition: background-color 500ms linear; 
+    -moz-transition: background-color 500ms linear; 
+    -ms-transition: background-color 500ms linear; 
+    transition: background-color 500ms linear;  */
+    /* box-shadow: 1px 1px 5px black ; */
+    transform:translateY(-100%); 
+    transition: all 0.3s ease-in-out;
+ }
+ .scrolled-up{
+    background-color: rgba(196, 247, 207, 1); 
+    -webkit-transition: background-color 500ms linear; 
+    -moz-transition: background-color 500ms linear; 
+    -ms-transition: background-color 500ms linear; 
+    transition: background-color 500ms linear; 
+    box-shadow: 1px 1px 5px black ;
+    transform:translateY(0); 
+    transition: all 0.3s ease-in-out;
+ }
+
+.scroll-left {
+    visibility: visible;
+    margin-left: 10px;
+    margin-right: 0px;
+    transition: all 0.3s ease-in-out;
 }
